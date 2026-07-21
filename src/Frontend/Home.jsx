@@ -221,7 +221,7 @@ export default function Home() {
               color: "#ffe600",
             }}
           >
-            The Department of IT, AIDS & CSBS <br />
+            The Department of Computer Science & Business Systems <br />
             proudly presents
           </h6>
         </motion.div>
@@ -241,7 +241,7 @@ export default function Home() {
           transition={{ duration: 1 }}
         >
           <HeroSubtitle style={{ fontSize: "1.3rem", margin: "0px" }}>
-            National Level <br /> Technical Symposium
+           Technical Quiz
           </HeroSubtitle>
           <AnniversaryLogo src="/25year.png" alt="25 Years Celebration" whileHover={{ scale: 1.05 }} />
         </motion.div>
@@ -256,7 +256,7 @@ export default function Home() {
             lineHeight: 1,
           }}
         >
-          Pinnacle 25
+          Tech Trivia
         </HeroSubtitle>
 
         <h6
@@ -269,7 +269,7 @@ export default function Home() {
             textAlign: "center",
           }}
         >
-          A Summit of IT, AI & Business System
+          A Summit of Computer Science & Business System
         </h6>
 
         <HeroSubtitle
@@ -285,12 +285,12 @@ export default function Home() {
             lineHeight: 1.1,
           }}
         >
-        Paper Presentation
+        Technical Quiz
         </HeroSubtitle>
 
         <InfoBox>
-          <p>📅 Date: 13th October 2025</p>
-          <p>⏰ Time: 11:50 AM</p>
+          <p>📅 Date: 22nd JULY 2026</p>
+          <p>⏰ Time: 02:00 PM</p>
         </InfoBox>
 
         <motion.div

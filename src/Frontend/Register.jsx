@@ -62,7 +62,7 @@ export default function Register() {
   const location = useLocation();
   const eventName = location.state?.eventName || "PaperPresentation";
 
-  const GAS_URL = "https://script.google.com/macros/s/AKfycbyxY6t8WGPYyrGKMkzy-u39zlMGjhCY_dJYVB2WRCEFTLl4VAYnzfZhZb8imlC4n85R/exec";
+  const GAS_URL = "https://docs.google.com/spreadsheets/d/1swPs7uulfQHzy_zTHnXTc4OoaNdeQIxacxvdPf48sh8/edit?usp=sharing";
 
   const [formData, setFormData] = useState({
     name: "", email: "", gender: "", degree: "", branch: "", year: "", phone: "",
@@ -125,20 +125,16 @@ export default function Register() {
             <Label>Degree</Label>
             <Select name="degree" value={formData.degree} onChange={handleChange} required>
               <option value="">Select Degree</option>
-              <option value="B.E">B.E</option>
               <option value="B.Tech">B.Tech</option>
             </Select>
             <Label>Branch</Label>
             <Select name="branch" value={formData.branch} onChange={handleChange} required>
               <option value="">Select Branch</option>
-              <option value="AI & DS">AI & DS</option>
               <option value="CS & BS">CS & BS</option>
-              <option value="IT">IT</option>
             </Select>
             <Label>Year</Label>
             <Select name="year" value={formData.year} onChange={handleChange} required>
               <option value="">Select Year</option>
-              <option value="I">I</option>
               <option value="II">II</option>
               <option value="III">III</option>
               <option value="IV">IV</option>

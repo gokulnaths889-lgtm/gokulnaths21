@@ -183,31 +183,22 @@ const EventsPage = () => {
 
   const [events] = useState([
     {
-      name: "Paper Presentation",
-      rules: [
-        "AI / ML",
-        "Cloud and Edge Computing",
-        "Cybersecurity",
-        "Internet of Things (IoT)",
-        "Blockchain",
-        "Quantum Computing",
-        "AR/VR",
-        "Digital Transformation",
-        "Business Intelligence and Analytics",
-        "Digital Sustainability & Ethics",
-        "Future Trends of IT, AI and Business Systemsentation",
-        "Individual / Team (Max Two Students).",
-        "Participants will be shortlisted based on the submitted abstract",
-        "Presentation time: 5 min + <br /> 2 min Q&amp;A",
-        'Send your abstract to the following <br /> mail id: <a href="mailto:pinnacle@gtec.ac.in"><strong>pinnacle@gtec.ac.in</strong></a> before 11th-OCT-2025 at 3:00 PM',
+      NAME: "TECH TRIVIA",
+      RULES: [
+        "The quiz consists of 3 elimination rounds.",
+        "Each participant/team will be given 10 seconds to answer each question.",
+        "Each correct answer earns 1 point. No negative marks for incorrect answers (or add negative marking if you prefer).",
+        "If a participant fails to answer within 10 seconds, the question will be considered unanswered.",
+        "Participants are not allowed to use mobile phones, smart watches, books, or any other electronic devices.",
+        "Discussion with other participants or audience members is strictly prohibited.",
+        "The top-performing participants/teams from each round will qualify for the next round.",
+        "The remaining participants/teams will be eliminated at the end of each round.",
+        "In case of a tie, a tie-breaker question will be conducted.",
+        "The Quiz Master's decision will be final and binding.",
+        "Participants must maintain discipline and follow the instructions throughout the event.",
       ],
-      paperFormat: [
-        "Paper : A4",
-        "Format : IEEE",
-        "Max No of Pages : 10",
-        "Line Spacing : 1.5",
-        "Font Type : Times New Roman",
-        "Font Size : 12",
+      DESCRIPTION: [
+        "The Technical Quiz is an exciting knowledge-based competition designed to test participants' understanding of programming concepts, logical thinking, and problem-solving skills. The quiz covers topics from Python, Java, and general computer science concepts. Participants will compete through multiple elimination rounds, where speed, accuracy, and technical knowledge are the key to success.\n\nThis event provides an excellent opportunity for students to showcase their coding knowledge, improve their technical skills, and engage in healthy competition with fellow tech enthusiasts."
       ],
       formPath: "/register",
     },
@@ -268,8 +259,8 @@ const EventsPage = () => {
 
       <ContactSection>
         <p>For any queries, contact:</p>
-        <p>Dinesh K R - 📞99447 94910</p>
-        <p>JayaPrasanth - 📞93616 56105</p>
+        <p>Manigandan G - 📞99447 94910</p>
+        <p>Mythili S - 📞93616 56105</p>
       </ContactSection>
     </PageWrapper>
   );

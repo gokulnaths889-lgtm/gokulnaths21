@@ -62,7 +62,7 @@ const TimeLabel = styled.div`
 const CountdownTimer = ({ onExpire }) => {
   const calculateTimeLeft = () => {
     const now = new Date();
-    const endDate = new Date("2025-10-13T10:29:59");
+    const endDate = new Date("2026-07-21T10:15:59");
     const diff = endDate - now;
 
     if (diff > 0) {
